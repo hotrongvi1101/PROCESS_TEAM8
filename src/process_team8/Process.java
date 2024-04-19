@@ -160,11 +160,6 @@ public class Process extends javax.swing.JFrame {
         jB_BT3.setForeground(new java.awt.Color(0, 0, 0));
         jB_BT3.setText("BT3");
         jB_BT3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jB_BT3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jB_BT3MouseClicked(evt);
-            }
-        });
         jB_BT3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jB_BT3ActionPerformed(evt);
