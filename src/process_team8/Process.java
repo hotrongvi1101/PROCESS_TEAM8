@@ -1,10 +1,8 @@
 package process_team8;
-
 public class Process extends javax.swing.JFrame {
     int width = 229;
     int height = 556;
     void openMenuBar(){
-        
         new Thread(new Runnable() {
             @Override
             public void run() {
