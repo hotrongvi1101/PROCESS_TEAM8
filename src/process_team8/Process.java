@@ -165,6 +165,11 @@ public class Process extends javax.swing.JFrame {
                 jB_BT3MouseClicked(evt);
             }
         });
+        jB_BT3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jB_BT3MouseClicked(evt);
+            }
+        });
         jB_BT3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jB_BT3ActionPerformed(evt);
@@ -873,22 +878,22 @@ public class Process extends javax.swing.JFrame {
     }//GEN-LAST:event_jB_BT1ActionPerformed
 
     private void jB_BT1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jB_BT1MouseClicked
-        jP_BT1.setVisible(true);
-        jP_BT2.setVisible(false);
-        jP_BT3.setVisible(false);
-        jP_BT4.setVisible(false);
-        jP_BT5.setVisible(false);
-        jP_BT6.setVisible(false);
-        jP_BT7.setVisible(false);
-        jP_BT8.setVisible(false);
-        jP_BT9.setVisible(false);
-        jP_BT10.setVisible(false);
-        jP_BT11.setVisible(false);
-        jP_BT12.setVisible(false);
-        jP_BT13.setVisible(false);
-        jP_BT14.setVisible(false);
-        jP_BT15.setVisible(false);
-        jP_Home.setVisible(false);
+    	 jP_BT1.setVisible(true);
+         jP_BT2.setVisible(false);
+         jP_BT3.setVisible(false);
+         jP_BT4.setVisible(false);
+         jP_BT5.setVisible(false);
+         jP_BT6.setVisible(false);
+         jP_BT7.setVisible(false);
+         jP_BT8.setVisible(false);
+         jP_BT9.setVisible(false);
+         jP_BT10.setVisible(false);
+         jP_BT11.setVisible(false);
+         jP_BT12.setVisible(false);
+         jP_BT13.setVisible(false);
+         jP_BT14.setVisible(false);
+         jP_BT15.setVisible(false);
+         jP_Home.setVisible(false);
     }//GEN-LAST:event_jB_BT1MouseClicked
 
     private void jB_BT2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jB_BT2MouseClicked
